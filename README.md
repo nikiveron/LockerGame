@@ -1,3 +1,3 @@
 # Игра "Шифровальщик"
 **TRAINING PROJECT**
-![](https://github.com/nikiveron/LockerGame/ShortRewiew.gif)
+![](https://github.com/nikiveron/LockerGame/blob/main/ShortReview.gif)
