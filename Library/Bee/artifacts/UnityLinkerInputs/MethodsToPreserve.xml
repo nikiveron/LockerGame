@@ -1,0 +1,17 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameManager">
+			<method name="OnGameEndLost"/>
+			<method name="OnGameEndLost"/>
+			<method name="OnGameEndWon"/>
+			<method name="OnGameStart"/>
+			<method name="SwitchToMenuScreen"/>
+			<method name="SwitchToMenuScreen"/>
+		</type>
+		<type fullname="NumberKeys">
+			<method name="OnClickFirstApply"/>
+			<method name="OnClickSecondApply"/>
+			<method name="OnClickThirdApply"/>
+		</type>
+	</assembly>
+</linker>

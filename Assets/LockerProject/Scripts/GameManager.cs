@@ -14,11 +14,6 @@ public class GameManager : MonoBehaviour
         SwitchToMenuScreen();
     }
 
-    private void Update()
-    {
-
-    }
-
     public void SwitchToMenuScreen()
     {
         _menuScreen.SetActive(true);
