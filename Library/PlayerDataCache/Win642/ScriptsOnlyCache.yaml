@@ -94,13 +94,16 @@ ScriptsOnlyBuild:
     methodName: OnClickFirstApply
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
-    methodName: OnGameEndWon
+    methodName: OnLightModeGameEndWon
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: OnHardModeGameEndWon
   - assembly: Assembly-CSharp
     fullTypeName: NumberKeys
     methodName: OnClickSecondApply
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
-    methodName: SwitchToMenuScreen
+    methodName: OnHardModeGameStart
   - assembly: Assembly-CSharp
     fullTypeName: NumberKeys
     methodName: OnClickFirstApply
@@ -112,10 +115,22 @@ ScriptsOnlyBuild:
     methodName: OnClickThirdApply
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
+    methodName: SwitchToMenuScreen
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: SwitchToMenuScreen
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: OnLightModeGameStart
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
     methodName: ApplicationQuit
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
-    methodName: OnGameStart
+    methodName: CloseOverlayWindow
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: OpenOverlayWindow
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: OnGameEndLost
@@ -732,7 +747,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 531c57358a20ece2bf2d27ff0502debd
+      Hash: d9ab9608a8962abfee9b8e9332f87c87
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1098,7 +1113,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: b1ed44ecdb0b8cfce94036315163cc58
+      Hash: 3081d22e6283f28cccc649a429c3d6cc
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayTimer
@@ -1134,7 +1149,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 7666e02ad91ade1ea9a34119eca7ec94
+      Hash: 591c1257cda860098eed92b69d22772c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: NumberKeys
@@ -1146,7 +1161,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 1b8aa4012b31c586af716437b8e8860a
+      Hash: 197d872fa80143cb29691825b570e637
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: NumberKeysView

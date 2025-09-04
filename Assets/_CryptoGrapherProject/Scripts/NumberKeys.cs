@@ -1,38 +1,65 @@
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class NumberKeys : MonoBehaviour
 {
-    [SerializeField] private NumberKeysView _aimKeysView;
-    [SerializeField] private NumberKeysView _currentKeysView;
+    [SerializeField] private NumberKeysView _lightModeAimKeysView;
+    [SerializeField] private NumberKeysView _lightModeCurrentKeysView;
+    [SerializeField] private NumberKeysView _hardModeAimKeysView;
+    [SerializeField] private NumberKeysView _hardModeCurrentKeysView;
     [SerializeField] private Button _applyFirstButton;
     [SerializeField] private Button _applySecondButton;
     [SerializeField] private Button _applyThirdButton;
-    [SerializeField] private UnityEvent _gameWon;
+    [SerializeField] private UnityEvent _lightGameWon;
+    [SerializeField] private UnityEvent _hardGameWon;
 
     private int[] aimKeyValues = new int[3];
+    private int aimKeyValue;
     private int[] currentKeyValues = new int[3];
+    private string _gameMode;
 
     private bool KeyMatch
     {
         get
         {
-            if (aimKeyValues[0] == currentKeyValues[0] && aimKeyValues[1] == currentKeyValues[1] && aimKeyValues[2] == currentKeyValues[2]) return true;
-            else return false;
+            if (_gameMode == "light")
+            {
+                if (currentKeyValues.Sum() == aimKeyValue) return true;
+                else return false;
+            }
+            else //if (_gameMode == "hard") // for future modes extension
+            {
+                if (aimKeyValues[0] == currentKeyValues[0] && aimKeyValues[1] == currentKeyValues[1] && aimKeyValues[2] == currentKeyValues[2]) return true;
+                else return false;
+            }
         }
     }
 
-    public void StartGame()
+    public void StartGame(string mode)
     {
-        aimKeyValues = GenerateKeys();
-        //aimKeyValues = new int[] { 1, 9, 2 }; // cheat for test
-        _aimKeysView.DisplayNumbers(aimKeyValues);
+        _gameMode = mode;
+        if (_gameMode == "light")
+        {
+            aimKeyValue = GenerateKeys().Sum();
+            _lightModeAimKeysView.DisplayNumbers(aimKeyValue);
 
-        currentKeyValues = GenerateKeys();
-        //currentKeyValues = new int[] { 0, 0, 0 };   // cheat for test
-        _currentKeysView.DisplayNumbers(currentKeyValues);
+            currentKeyValues = GenerateKeys();
+            _lightModeCurrentKeysView.DisplayNumbers(currentKeyValues);
+
+        }
+        else if (_gameMode == "hard")
+        {
+            aimKeyValues = GenerateKeys();
+            //aimKeyValues = new int[] { 1, 9, 2 }; // cheat for test
+            _hardModeAimKeysView.DisplayNumbers(aimKeyValues);
+
+            currentKeyValues = GenerateKeys();
+            //currentKeyValues = new int[] { 0, 0, 0 };   // cheat for test
+            _hardModeCurrentKeysView.DisplayNumbers(currentKeyValues);
+        }
     }
 
     public int[] GenerateKeys()
@@ -54,9 +81,15 @@ public class NumberKeys : MonoBehaviour
         currentKeyValues[2] += 2;
         if (currentKeyValues[2] > 9) currentKeyValues[2] = currentKeyValues[2] % 10;
 
-        _currentKeysView.DisplayNumbers(currentKeyValues);
+        if (_gameMode == "light") _lightModeCurrentKeysView.DisplayNumbers(currentKeyValues);
+        else if (_gameMode == "hard") _hardModeCurrentKeysView.DisplayNumbers(currentKeyValues);
 
-        if (KeyMatch) _gameWon.Invoke();
+
+        if (KeyMatch)
+        {
+            if (_gameMode == "light") _lightGameWon.Invoke();
+            else if (_gameMode == "hard") _hardGameWon.Invoke();
+        }
     }
 
     public void OnClickSecondApply()
@@ -66,9 +99,14 @@ public class NumberKeys : MonoBehaviour
         currentKeyValues[2] -= 2;
         if (currentKeyValues[2] < 0) currentKeyValues[2] = 10 + currentKeyValues[2];
 
-        _currentKeysView.DisplayNumbers(currentKeyValues);
+        if (_gameMode == "light") _lightModeCurrentKeysView.DisplayNumbers(currentKeyValues);
+        else if (_gameMode == "hard") _hardModeCurrentKeysView.DisplayNumbers(currentKeyValues);
 
-        if (KeyMatch) _gameWon.Invoke();
+        if (KeyMatch)
+        {
+            if (_gameMode == "light") _lightGameWon.Invoke();
+            else if (_gameMode == "hard") _hardGameWon.Invoke();
+        }
     }
 
     public void OnClickThirdApply()
@@ -78,8 +116,13 @@ public class NumberKeys : MonoBehaviour
         currentKeyValues[2] -= 1;
         if (currentKeyValues[2] < 0) currentKeyValues[2] = 9;
 
-        _currentKeysView.DisplayNumbers(currentKeyValues);
+        if (_gameMode == "light") _lightModeCurrentKeysView.DisplayNumbers(currentKeyValues);
+        else if (_gameMode == "hard") _hardModeCurrentKeysView.DisplayNumbers(currentKeyValues);
 
-        if (KeyMatch) _gameWon.Invoke();
+        if (KeyMatch)
+        {
+            if (_gameMode == "light") _lightGameWon.Invoke();
+            else if (_gameMode == "hard") _hardGameWon.Invoke();
+        }
     }
 }

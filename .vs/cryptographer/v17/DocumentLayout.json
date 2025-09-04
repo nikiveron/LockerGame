@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\cryptographer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|c:\\unityprojects\\cryptographer\\assets\\_cryptographerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|solutionrelative:assets\\_cryptographerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|c:\\unityprojects\\cryptographer\\assets\\_cryptographerproject\\scripts\\playtimerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|solutionrelative:assets\\_cryptographerproject\\scripts\\playtimerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|c:\\unityprojects\\cryptographer\\assets\\_cryptographerproject\\scripts\\numberkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|c:\\unityprojects\\cryptographer\\assets\\_cryptographerproject\\scripts\\playtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|solutionrelative:assets\\_cryptographerproject\\scripts\\playtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|c:\\unityprojects\\cryptographer\\assets\\_cryptographerproject\\scripts\\numberkeysview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|solutionrelative:assets\\_cryptographerproject\\scripts\\numberkeysview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|C:\\UnityProjects\\cryptographer\\assets\\_cryptographerproject\\scripts\\numberkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|solutionrelative:assets\\_cryptographerproject\\scripts\\numberkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|c:\\unityprojects\\cryptographer\\assets\\_cryptographerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59F671D-095E-8845-13AB-7844A7DAE73A}|Assembly-CSharp.csproj|solutionrelative:assets\\_cryptographerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayTimerView.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\PlayTimerView.cs",
+              "RelativeDocumentMoniker": "Assets\\_CryptoGrapherProject\\Scripts\\PlayTimerView.cs",
+              "ToolTip": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\PlayTimerView.cs",
+              "RelativeToolTip": "Assets\\_CryptoGrapherProject\\Scripts\\PlayTimerView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:04:06.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayTimer.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\PlayTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\_CryptoGrapherProject\\Scripts\\PlayTimer.cs",
+              "ToolTip": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\PlayTimer.cs",
+              "RelativeToolTip": "Assets\\_CryptoGrapherProject\\Scripts\\PlayTimer.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:03:19.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NumberKeysView.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\NumberKeysView.cs",
+              "RelativeDocumentMoniker": "Assets\\_CryptoGrapherProject\\Scripts\\NumberKeysView.cs",
+              "ToolTip": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\NumberKeysView.cs",
+              "RelativeToolTip": "Assets\\_CryptoGrapherProject\\Scripts\\NumberKeysView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:38:23.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NumberKeys.cs",
               "DocumentMoniker": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\NumberKeys.cs",
               "RelativeDocumentMoniker": "Assets\\_CryptoGrapherProject\\Scripts\\NumberKeys.cs",
               "ToolTip": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\NumberKeys.cs",
               "RelativeToolTip": "Assets\\_CryptoGrapherProject\\Scripts\\NumberKeys.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T16:53:54.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\_CryptoGrapherProject\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\UnityProjects\\cryptographer\\Assets\\_CryptoGrapherProject\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\_CryptoGrapherProject\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAGwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T10:35:57.798Z",
               "EditorCaption": ""

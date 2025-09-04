@@ -3,12 +3,17 @@
 		<type fullname="GameManager">
 			<method name="ApplicationQuit"/>
 			<method name="CloseOverlayWindow"/>
+			<method name="CloseOverlayWindow"/>
 			<method name="OnGameEndLost"/>
 			<method name="OnGameEndLost"/>
 			<method name="OnGameEndLost"/>
-			<method name="OnGameEndWon"/>
-			<method name="OnGameStart"/>
+			<method name="OnHardModeGameEndWon"/>
+			<method name="OnHardModeGameStart"/>
+			<method name="OnLightModeGameEndWon"/>
+			<method name="OnLightModeGameStart"/>
 			<method name="OpenOverlayWindow"/>
+			<method name="OpenOverlayWindow"/>
+			<method name="SwitchToMenuScreen"/>
 			<method name="SwitchToMenuScreen"/>
 			<method name="SwitchToMenuScreen"/>
 		</type>

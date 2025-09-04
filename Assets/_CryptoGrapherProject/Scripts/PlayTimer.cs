@@ -4,16 +4,19 @@ using UnityEngine.Events;
 
 public class PlayTimer : MonoBehaviour
 {
-    [SerializeField] private PlayTimerView _timerView;
+    [SerializeField] private PlayTimerView _lightModeTimerView;
+    [SerializeField] private PlayTimerView _hardModeTimerView;
     [SerializeField] private UnityEvent _timerFinished;
     [SerializeField] private float _startTime = 60f;
     [SerializeField] private float _countdownInterval = 0.1f;
 
     private Coroutine _timerCoroutine;
     public bool IsTimerCoroutineActive => _timerCoroutine != null;
+    private string _gameMode;
 
-    public void StartTimer()
+    public void StartTimer(string mode)
     {
+        _gameMode = mode;
         StopCoroutineIfActive();
         StartCoroutine();
     }
@@ -47,7 +50,8 @@ public class PlayTimer : MonoBehaviour
             yield return waitForSeconds;
             remainingTime -= countdownInterval;
             remainingTime = Mathf.Max(remainingTime, 0f);
-            _timerView.Display(remainingTime);
+            if (_gameMode == "light") _lightModeTimerView.Display(remainingTime);
+            else if (_gameMode == "hard") _hardModeTimerView.Display(remainingTime);
         }
         while (remainingTime > 0);
 
