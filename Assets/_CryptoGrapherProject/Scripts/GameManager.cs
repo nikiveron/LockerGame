@@ -14,6 +14,11 @@ public class GameManager : MonoBehaviour
         SwitchToMenuScreen();
     }
 
+    public void ApplicationQuit()
+    {
+        Application.Quit();
+    }
+
     public void SwitchToMenuScreen()
     {
         _menuScreen.SetActive(true);

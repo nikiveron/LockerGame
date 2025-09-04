@@ -103,6 +103,9 @@ ScriptsOnlyBuild:
     methodName: OnGameEndLost
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
+    methodName: ApplicationQuit
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
     methodName: OnGameStart
   - assembly: Assembly-CSharp
     fullTypeName: NumberKeys
@@ -111,7 +114,7 @@ ScriptsOnlyBuild:
     fullTypeName: GameManager
     methodName: SwitchToMenuScreen
   sceneClasses:
-    Assets/LockerProject/Scenes/MainScene.unity:
+    Assets/_CryptoGrapherProject/Scenes/MainScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1191,5 +1194,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/LockerProject/Scenes/MainScene.unity
+  - Assets/_CryptoGrapherProject/Scenes/MainScene.unity
   playerPath: C:/UnityProjects/Builded/practise_module08.exe
