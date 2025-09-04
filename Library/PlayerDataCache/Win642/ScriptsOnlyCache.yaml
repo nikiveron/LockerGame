@@ -103,6 +103,9 @@ ScriptsOnlyBuild:
     methodName: OnClickSecondApply
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
+    methodName: OpenOverlayWindow
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
     methodName: OnHardModeGameStart
   - assembly: Assembly-CSharp
     fullTypeName: NumberKeys
@@ -122,6 +125,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: OnLightModeGameStart
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: CloseOverlayWindow
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: ApplicationQuit
@@ -747,7 +753,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: d9ab9608a8962abfee9b8e9332f87c87
+      Hash: c1695675148fc3818f82e84826acb87b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1228,4 +1234,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/_CryptoGrapherProject/Scenes/MainScene.unity
-  playerPath: C:/UnityProjects/Builded/practise_module08.exe
+  playerPath: C:/UnityProjects/CryptographerBuilded/Cryptographer.exe
