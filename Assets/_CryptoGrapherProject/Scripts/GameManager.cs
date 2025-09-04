@@ -19,6 +19,16 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void OpenOverlayWindow(GameObject window)
+    {
+        window.SetActive(true);
+    }
+
+    public void CloseOverlayWindow(GameObject window)
+    {
+        window.SetActive(false);
+    }
+
     public void SwitchToMenuScreen()
     {
         _menuScreen.SetActive(true);

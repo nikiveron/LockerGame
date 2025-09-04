@@ -87,6 +87,9 @@ ScriptsOnlyBuild:
     fullTypeName: GameManager
     methodName: OnGameEndLost
   - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: OnGameEndLost
+  - assembly: Assembly-CSharp
     fullTypeName: NumberKeys
     methodName: OnClickFirstApply
   - assembly: Assembly-CSharp
@@ -99,14 +102,29 @@ ScriptsOnlyBuild:
     fullTypeName: GameManager
     methodName: SwitchToMenuScreen
   - assembly: Assembly-CSharp
+    fullTypeName: NumberKeys
+    methodName: OnClickFirstApply
+  - assembly: Assembly-CSharp
     fullTypeName: GameManager
-    methodName: OnGameEndLost
+    methodName: OpenOverlayWindow
+  - assembly: Assembly-CSharp
+    fullTypeName: NumberKeys
+    methodName: OnClickThirdApply
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: ApplicationQuit
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: OnGameStart
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: OnGameEndLost
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: CloseOverlayWindow
+  - assembly: Assembly-CSharp
+    fullTypeName: NumberKeys
+    methodName: OnClickSecondApply
   - assembly: Assembly-CSharp
     fullTypeName: NumberKeys
     methodName: OnClickThirdApply

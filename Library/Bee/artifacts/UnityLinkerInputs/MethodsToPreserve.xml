@@ -2,16 +2,22 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="GameManager">
 			<method name="ApplicationQuit"/>
+			<method name="CloseOverlayWindow"/>
+			<method name="OnGameEndLost"/>
 			<method name="OnGameEndLost"/>
 			<method name="OnGameEndLost"/>
 			<method name="OnGameEndWon"/>
 			<method name="OnGameStart"/>
+			<method name="OpenOverlayWindow"/>
 			<method name="SwitchToMenuScreen"/>
 			<method name="SwitchToMenuScreen"/>
 		</type>
 		<type fullname="NumberKeys">
 			<method name="OnClickFirstApply"/>
+			<method name="OnClickFirstApply"/>
 			<method name="OnClickSecondApply"/>
+			<method name="OnClickSecondApply"/>
+			<method name="OnClickThirdApply"/>
 			<method name="OnClickThirdApply"/>
 		</type>
 	</assembly>
