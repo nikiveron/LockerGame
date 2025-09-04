@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D2AD2C53-DA33-99D7-D473-12044F4039E5}</ProjectGuid>
+    <ProjectGuid>{F59F671D-095E-8845-13AB-7844A7DAE73A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,11 +61,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LockerProject\Scripts\PlayTimerView.cs" />
-    <Compile Include="Assets\LockerProject\Scripts\GameManager.cs" />
-    <Compile Include="Assets\LockerProject\Scripts\NumberKeysView.cs" />
-    <Compile Include="Assets\LockerProject\Scripts\NumberKeys.cs" />
-    <Compile Include="Assets\LockerProject\Scripts\PlayTimer.cs" />
+    <Compile Include="Assets\_CryptoGrapherProject\Scripts\NumberKeys.cs" />
+    <Compile Include="Assets\_CryptoGrapherProject\Scripts\PlayTimer.cs" />
+    <Compile Include="Assets\_CryptoGrapherProject\Scripts\NumberKeysView.cs" />
+    <Compile Include="Assets\_CryptoGrapherProject\Scripts\GameManager.cs" />
+    <Compile Include="Assets\_CryptoGrapherProject\Scripts\PlayTimerView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

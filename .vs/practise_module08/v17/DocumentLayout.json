@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\practise_module08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|c:\\unityprojects\\practise_module08\\assets\\lockerproject\\scripts\\numberkeysview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|solutionrelative:assets\\lockerproject\\scripts\\numberkeysview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|C:\\UnityProjects\\practise_module08\\assets\\lockerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|solutionrelative:assets\\lockerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|C:\\UnityProjects\\practise_module08\\assets\\lockerproject\\scripts\\numberkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|solutionrelative:assets\\lockerproject\\scripts\\numberkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|C:\\UnityProjects\\practise_module08\\assets\\lockerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|solutionrelative:assets\\lockerproject\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|c:\\unityprojects\\practise_module08\\assets\\lockerproject\\scripts\\numberkeysview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|solutionrelative:assets\\lockerproject\\scripts\\numberkeysview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|c:\\unityprojects\\practise_module08\\assets\\lockerproject\\scripts\\playtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|C:\\UnityProjects\\practise_module08\\assets\\lockerproject\\scripts\\playtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2AD2C53-DA33-99D7-D473-12044F4039E5}|Assembly-CSharp.csproj|solutionrelative:assets\\lockerproject\\scripts\\playtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NumberKeysView.cs",
               "DocumentMoniker": "C:\\UnityProjects\\practise_module08\\Assets\\LockerProject\\Scripts\\NumberKeysView.cs",
               "RelativeDocumentMoniker": "Assets\\LockerProject\\Scripts\\NumberKeysView.cs",
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "Assets\\LockerProject\\Scripts\\NumberKeys.cs",
               "ToolTip": "C:\\UnityProjects\\practise_module08\\Assets\\LockerProject\\Scripts\\NumberKeys.cs",
               "RelativeToolTip": "Assets\\LockerProject\\Scripts\\NumberKeys.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T12:54:10.154Z",
               "EditorCaption": ""
@@ -64,18 +64,17 @@
               "RelativeToolTip": "Assets\\LockerProject\\Scripts\\PlayTimer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T12:41:58.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T12:41:58.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\practise_module08\\Assets\\LockerProject\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\LockerProject\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\UnityProjects\\practise_module08\\Assets\\LockerProject\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\LockerProject\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T12:27:09.608Z",
               "EditorCaption": ""
